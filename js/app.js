@@ -114,6 +114,6 @@ particlesJS('particles-background',
 $(function(){
   $(".typed-text").typed({
     strings: ["First sentence.", "Second sentence."],
-    typeSpeed: 0
+    typeSpeed: 30
   });
 });

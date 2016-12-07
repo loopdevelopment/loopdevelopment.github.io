@@ -19,6 +19,14 @@ body {
   font-size: 4vw;
 }
 
+#first-cover-row {
+  padding: 5px;
+}
+
+#second-cover-row {
+  padding: 5px;
+}
+
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
