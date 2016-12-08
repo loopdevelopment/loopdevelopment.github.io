@@ -113,7 +113,7 @@ particlesJS('particles-background',
 
 $(function(){
   $(".typed-text").typed({
-    strings: ["Desarrollamos aplicaciones web con tecnologias de punta ^3000", "Lorem Ipsum"],
+    strings: ["Desarrollamos aplicaciones web con tecnologias de punta^3000", "^3000Lorem Ipsum"],
     typeSpeed: 30,
     startDelay: 3000
   });

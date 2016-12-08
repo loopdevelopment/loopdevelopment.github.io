@@ -22,6 +22,7 @@ body {
   font-size: 3vw;
 }
 
+/*Typed.js cursor*/
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -43,8 +44,9 @@ body {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+/*End Typed.js cursor*/
 
-
+/*Traffic lights*/
 .traffic-lights {
     top: 1px;
     left: 8px;
@@ -59,7 +61,19 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.06);
     box-sizing: border-box;
     margin-right: 3.5px;
-    background-color: $disabled-gray;
     position: relative;
     outline: none; 
 }
+
+#red-traffic {
+  background-color: #FC5753;
+}
+
+#yellow-traffic {
+  background-color: #FDBB40;
+}
+
+#green-traffic {
+  background-color: #32C747;
+}
+/*End Traffic lights*/
