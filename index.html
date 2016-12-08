@@ -15,16 +15,35 @@
   <body>
     
     <!-- Cover Section -->
-    <section id="cover" class="container-fluid">
-      <div class="jumbotron col-xs-6 col-xs-offset-3" id="cover-box">
-        <div class="row" id="first-cover-row">
-          <p>Loop Development</p>
+    <section id="cover">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3" id="cover-box">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                 <div class="row">
+                  <div class="col-xs-4">
+                    <!-- Traffic lights buttons -->
+                    <div class="traffic-lights">
+                      <button class="traffic-light traffic-light-close" id="close"></button>
+                      <button class="traffic-light traffic-light-minimize" id="minimize"></button>
+                      <button class="traffic-light traffic-light-maximize" id="maximize"></button>
+                    </div> 
+                    
+                  </div>
+                  <div class="col-xs-4 text-center">
+                    Loop
+                  </div>
+                </div>
+              </div>
+              <div class="panel-body">
+                Macbook-Pro:~ loopdev$  <span class="typed-text"></span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row" id="second-cover-row">
-          <span class="typed-text"></span>
-        </div>
+        <div id="particles-background"></div>
       </div>
-      <div id="particles-background"></div>
     </section>
     
      
